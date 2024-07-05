@@ -93,3 +93,6 @@ services:
       - /storage03/mediacenter/plex/media/peliculas:/data/peliculas
     ports:
       - 6767:6767
+
+env_file:
+  - .env
